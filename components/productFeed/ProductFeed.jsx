@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "../Product/Product";
+import Image from "next/image";
 
 
 function ProductFeed({products}) {
@@ -19,7 +20,9 @@ function ProductFeed({products}) {
         />
       ))}
 
-      <img
+      <Image
+        width={200}
+        height={200}
         className="md:col-span-full"
         src="https://links.papareact.com/dyz"
         alt="anuncio"

@@ -31,7 +31,7 @@ function Header() {
             />
           </Link>
           <Link href="/">
-            <span className="px-1 mr-6 text-white">Editorial Renanteck</span>
+            <span className="px-1 mr-6 text-yellow-500">Editorial Renanteck</span>
           </Link>
         </div>
         {/* Search */}
@@ -77,7 +77,7 @@ function Header() {
         </div>
       </div>
       {/* Buttom nav */}
-      <div className="flex items-center space-x-3 py-2 pl-6 bg-slate-600 text-white text-sm">
+      <div className="flex items-center space-x-3 py-2 pl-6 bg-slate-400 text-white text-sm">
         <p className="link flex items-center">
           <MenuIcon className="h-6 ml-1" />
           All
